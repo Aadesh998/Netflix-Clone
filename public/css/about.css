@@ -1,0 +1,63 @@
+.about-movie{
+    /* background-image: url(https://tse4.explicit.bing.net/th?id=OIP.QHCS7t8bteAOJjVcgCWljQHaEK&pid=Api&P=0&h=180); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 96vh;
+    
+}
+.about{
+    height: 100%;
+    width: 60%;
+    background: linear-gradient(to right,rgba(24,24,24,1),rgba(24,24,24,0) 100%);
+    
+}
+.about-title{
+    padding-top: 50%;
+    margin-bottom: 10px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-left: 5%;
+}
+
+.desc,.trand-additional{
+    padding-left: 5%;
+}
+.video{
+    padding-left: 5%;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 25px;
+    color: #fff;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.video-container{
+    padding-left: 25px;
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 15px;
+    scroll-behavior: smooth;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+}
+/* .video-container::-webkit-scrollbar{
+    display: none;
+} */
+.iframe{
+   /* margin-right: 15px; */
+   min-width: calc(100%/3-10px); 
+   /* width: calc(100%/3-10px);  */
+   height: 200px;
+   margin: 20px;
+   
+}
+.iframe:hover{
+    transition: .3s ease;
+    transform: scale(1.1);
+}
